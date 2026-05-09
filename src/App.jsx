@@ -204,13 +204,15 @@ function PhoneScreen() {
 /* ---------- FEATURES ---------- */
 function Features() {
   const features = [
-    { icon: ScanLine, title: "Smart Scan", desc: "Point your camera at any prescription label. Google ML Kit reads the text instantly and Gemini AI checks safety against your profile." },
-    { icon: ShieldCheck, title: "Interaction Shield", desc: "Gemini AI cross-checks every new medication against your existing ones — flagging dangerous combinations before they happen." },
-    { icon: Calendar, title: "Schedule & Remind", desc: "Add medicines, set custom schedules, and get timezone-aware push notifications — so you never miss a dose." },
-    { icon: MessageCircle, title: "Chat with Pillo", desc: "Ask Pillo about side effects, timing, or missed doses. Get clear, friendly answers personalized to your medications." },
-    { icon: Sparkles, title: "Health Profile", desc: "Your conditions, allergies, and history — securely stored in Firebase and used by AI to deliver advice that's truly yours." },
-    { icon: Globe, title: "5 Languages", desc: "Available in English, Arabic, French, Spanish, and Urdu — making safe medication accessible to more people worldwide." }
-  ];
+  { icon: ScanLine, title: "Smart Scan", desc: "Point your camera at any prescription label. Google ML Kit reads the text instantly and Gemini AI checks safety against your profile." },
+  { icon: Upload, title: "Upload a Photo", desc: "Got a label saved in your gallery? Upload any image of a medicine — Dosely processes it the same way as a live scan." },
+  { icon: Search, title: "Search Any Medicine", desc: "Type a name to instantly look up any medication in our database — get details, warnings, and check it against your profile in seconds." },
+  { icon: ShieldCheck, title: "Interaction Shield", desc: "Gemini AI cross-checks every new medication against your existing ones — flagging dangerous combinations before they happen." },
+  { icon: Calendar, title: "Schedule & Remind", desc: "Add medicines, set custom schedules, and get timezone-aware push notifications — so you never miss a dose." },
+  { icon: MessageCircle, title: "Chat with Pillo", desc: "Ask Pillo about side effects, timing, or missed doses. Get clear, friendly answers personalized to your medications." },
+  { icon: Sparkles, title: "Health Profile", desc: "Your conditions, allergies, and history — securely stored in Firebase and used by AI to deliver advice that's truly yours." },
+  { icon: Globe, title: "5 Languages", desc: "Available in English, Arabic, French, Spanish, and Urdu — making safe medication accessible to more people worldwide." }
+];
   return (
     <section id="features">
       <div className="container">
@@ -241,7 +243,7 @@ function Features() {
 function How() {
   const steps = [
     { n: "1", title: "Build your profile", desc: "Tell Dosely about your conditions, allergies, and current medicines." },
-    { n: "2", title: "Scan your meds", desc: "Use the camera to scan any new prescription or over-the-counter drug." },
+    { n: "2", title: "Scan, upload, or search", desc: "Use your camera, upload a photo from your gallery, or search any medicine by name — whichever works for you." },
     { n: "3", title: "Get instant AI checks", desc: "Gemini reviews interactions, dosage, and risks — tailored to your health." },
     { n: "4", title: "Schedule & track", desc: "Set reminders, tick off doses, and stay consistent with confidence." }
   ];
