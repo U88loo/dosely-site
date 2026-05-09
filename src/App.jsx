@@ -7,6 +7,7 @@ import {
   Languages, User, Apple, PlaySquare
 } from "lucide-react";
 import "./App.css";
+import ScrollReveal from "./ScrollReveal.jsx";
 
 /* ---------- Reusable scroll-reveal wrapper ---------- */
 function Reveal({ children, delay = 0, y = 24 }) {
@@ -36,9 +37,9 @@ function Nav() {
     <nav className={scrolled ? "nav scrolled" : "nav"}>
       <div className="container nav-inner">
         <a className="logo" href="#">
-          <div className="logo-mark"><Pill size={18} /></div>
-          Dosely
-        </a>
+  <img src="/logo-icon.png" alt="Dosely" className="logo-img" />
+  Dosely
+</a>
         <div className="nav-links">
           <a href="#features">Features</a>
           <a href="#how">How it works</a>
@@ -302,7 +303,7 @@ function Pillo() {
                   transition={{ duration: 0.5, delay: i * 0.5 }}
                 >
                   {!m.me && (
-                    <div className="pillo-avatar"><Pill size={18} /></div>
+                    <div className="pillo-avatar"><img src="/logo-icon.png" alt="Pillo" className="pillo-avatar-img" /></div>
                   )}
                   {m.typing ? (
                     <div className="typing"><span></span><span></span><span></span></div>
@@ -436,9 +437,9 @@ function Footer() {
         <div className="foot-grid">
           <div>
             <div className="foot-brand">
-              <div className="logo-mark"><Pill size={18} /></div>
-              Dosely
-            </div>
+  <img src="/logo-icon.png" alt="Dosely" className="logo-img-footer" />
+  Dosely
+</div>
             <div className="foot-tag">Ensuring medication safety through AI. A senior project building a smarter, safer way to manage your health.</div>
           </div>
           <div>
@@ -482,6 +483,7 @@ export default function App() {
     <>
       <Nav />
       <Hero />
+      <ScrollReveal />
       <Features />
       <How />
       <Pillo />
