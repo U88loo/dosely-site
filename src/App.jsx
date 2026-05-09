@@ -4,7 +4,7 @@ import {
   Pill, ScanLine, Upload, Search, MessageCircle, Calendar,
   ShieldCheck, Clock, Check, ArrowRight, Play, Globe,
   Sparkles, Lock, Bell, Camera, Code2, Database, Cloud,
-  Languages, User, Apple, PlaySquare
+  Languages, User, Apple, PlaySquare, Bot
 } from "lucide-react";
 import "./App.css";
 import ScrollReveal from "./ScrollReveal.jsx";
@@ -303,7 +303,7 @@ function Pillo() {
                   transition={{ duration: 0.5, delay: i * 0.5 }}
                 >
                   {!m.me && (
-                    <div className="pillo-avatar"><img src="/logo-icon.png" alt="Pillo" className="pillo-avatar-img" /></div>
+                    <div className="pillo-avatar"><Bot size={20} /></div>
                   )}
                   {m.typing ? (
                     <div className="typing"><span></span><span></span><span></span></div>
