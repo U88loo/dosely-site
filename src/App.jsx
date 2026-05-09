@@ -462,7 +462,7 @@ function Footer() {
           <div>
             <div className="foot-h">Contact</div>
             <ul className="foot-list">
-              <li><a href="mailto:info@doselybh.com">info@dosely.app</a></li>
+              <li><a href="mailto:info@doselybh.com">info@doselybh.com</a></li>
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Terms</a></li>
             </ul>
