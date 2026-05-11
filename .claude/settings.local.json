@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(findstr -i mp4)",
+      "Bash(copy \"c:\\\\Users\\\\Liihj\\\\dosely-site\\\\src\\\\Video Project 1.mp4\" \"c:\\\\Users\\\\Liihj\\\\dosely-site\\\\public\\\\demo.mp4\")",
+      "PowerShell(Copy-Item \"c:\\\\Users\\\\Liihj\\\\dosely-site\\\\src\\\\Video Project 1.mp4\" \"c:\\\\Users\\\\Liihj\\\\dosely-site\\\\public\\\\demo.mp4\")"
+    ]
+  }
+}

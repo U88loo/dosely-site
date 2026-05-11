@@ -1,7 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useLang } from "./LanguageContext.jsx";
-import demoVideo from "./Video Project 1.mp4";
 
 export default function ScrollReveal() {
   const { t } = useLang();
@@ -36,7 +35,7 @@ export default function ScrollReveal() {
             <div className="scroll-phone-notch"></div>
             <div className="scroll-phone-screen">
               <video
-                src={demoVideo}
+                src="/demo.mp4"
                 autoPlay
                 loop
                 muted
