@@ -1,7 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useLang } from "./LanguageContext.jsx";
-import demoVideo from "./Video Project 1.mp4";
 
 export default function ScrollReveal() {
   const { t } = useLang();
@@ -35,13 +34,10 @@ export default function ScrollReveal() {
           <div className="scroll-phone">
             <div className="scroll-phone-notch"></div>
             <div className="scroll-phone-screen">
-              <video
-                src={demoVideo}
-                autoPlay
-                loop
-                muted
-                playsInline
-              />
+              <div className="scroll-phone-placeholder">
+                <img src="/logo-icon.png" alt="Dosely" />
+                <div className="scroll-phone-placeholder-text">{t("scroll_placeholder")}</div>
+              </div>
             </div>
           </div>
         </motion.div>
