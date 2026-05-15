@@ -337,11 +337,6 @@ function Stack() {
             </Reveal>
           ))}
         </div>
-        <Reveal delay={0.3}>
-          <div className="lang-row">
-            {langs.map(l => <span key={l.name} className="lang-pill"><span className="flag">{l.flag}</span> {l.name}</span>)}
-          </div>
-        </Reveal>
       </div>
     </section>
   );
