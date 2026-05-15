@@ -66,8 +66,8 @@ export const translations = {
     feat_chat_d: "Ask Pillo about side effects, timing, or missed doses. Get clear, friendly answers personalized to your medications.",
     feat_profile_t: "Health Profile",
     feat_profile_d: "Your conditions, allergies, and history — securely stored in Firebase and used by AI to deliver advice that's truly yours.",
-    feat_lang_t: "5 Languages",
-    feat_lang_d: "Available in English, Arabic, French, Spanish, and Urdu — making safe medication accessible to more people worldwide.",
+    feat_lang_t: "Arabic & English",
+    feat_lang_d: "Fully bilingual from day one — switch seamlessly between Arabic and English so every user gets a native, natural experience in the language they think in.",
 
     // How it works
     how_eyebrow: "How it works",
@@ -206,8 +206,8 @@ export const translations = {
     feat_chat_d: "اسأل بيلو عن الآثار الجانبية، أوقات الجرعات، أو الجرعات الفائتة. احصل على إجابات واضحة وودودة مخصصة لأدويتك.",
     feat_profile_t: "ملف صحي",
     feat_profile_d: "حالاتك الصحية، حساسياتك، وتاريخك — محفوظة بأمان في Firebase ويستخدمها الذكاء الاصطناعي لتقديم نصائح خاصة بك.",
-    feat_lang_t: "٥ لغات",
-    feat_lang_d: "متوفر بالإنجليزية والعربية والفرنسية والإسبانية والأوردية — لجعل أمان الأدوية متاحاً لأكبر عدد من الناس حول العالم.",
+    feat_lang_t: "عربي وإنجليزي",
+    feat_lang_d: "ثنائي اللغة بالكامل منذ اليوم الأول — انتقل بسلاسة بين العربية والإنجليزية، لتحصل على تجربة أصيلة بلغتك التي تفكر بها.",
 
     // How it works
     how_eyebrow: "كيف يعمل",

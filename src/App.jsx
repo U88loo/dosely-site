@@ -90,7 +90,7 @@ function Hero() {
             <a href="#how" className="btn btn-ghost"><Play size={18} /> {t("hero_btn_ghost")}</a>
           </motion.div>
           <motion.div className="hero-stats" {...fade(0.4)}>
-            <div><div className="stat-num">5</div><div className="stat-lbl">{t("hero_stat_langs")}</div></div>
+            <div><div className="stat-num">2</div><div className="stat-lbl">{t("hero_stat_langs")}</div></div>
             <div><div className="stat-num">AI</div><div className="stat-lbl">{t("hero_stat_ai")}</div></div>
             <div><div className="stat-num">24/7</div><div className="stat-lbl">{t("hero_stat_24")}</div></div>
           </motion.div>
@@ -310,9 +310,7 @@ function Stack() {
     { icon: Lock, title: t("stack_storage"), tags: ["shared_preferences", "permission_handler", "App Check"] }
   ];
   const langs = [
-    { flag: "🇬🇧", name: t("lang_en") }, { flag: "🇸🇦", name: t("lang_ar") },
-    { flag: "🇫🇷", name: t("lang_fr") }, { flag: "🇪🇸", name: t("lang_es") },
-    { flag: "🇵🇰", name: t("lang_ur") }
+    { flag: "🇬🇧", name: t("lang_en") }, { flag: "🇸🇦", name: t("lang_ar") }
   ];
   return (
     <section id="stack" className="stack">
